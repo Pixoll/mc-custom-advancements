@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond"
+    },
+    "title": "Pixoll's Advancements!",
+    "description": "Made by Pixoll with love",
+    "background": "minecraft:textures/block/diamond_block.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "pixoll": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

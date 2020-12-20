@@ -7,7 +7,7 @@
     "description": "Buy a plot at SD",
     "frame": "challenge"
   },
-  "parent": "pixoll:sub1/root",
+  "parent": "pixoll:test/root",
   "criteria": {
     "buyPlot": {
       "trigger": "minecraft:placed_block",
