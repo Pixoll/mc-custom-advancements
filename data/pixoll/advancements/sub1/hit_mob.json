@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wooden_sword"
+    },
+    "title": "Hit!",
+    "description": "Hit any mob!",
+    "frame": "goal"
+  },
+  "parent": "pixoll:sub1/root",
+  "criteria": {
+    "hitMob": {
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  }
+}
