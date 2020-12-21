@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald",
+      "nbt": "{Enchantments:[{id:unbreaking,lvl:1}]}"
+    },
+    "title": "Staff Befriended!",
+    "description": "Make a staff have trust in you!",
+    "frame": "goal"
+  },
+  "parent": "pixoll:whimcraft_custom/root",
+  "criteria": {
+    "staffTrusted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
