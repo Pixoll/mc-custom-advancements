@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond"
+    },
+    "title": "Salesman",
+    "description": "Make profits in your shop!",
+    "frame": "goal"
+  },
+  "parent": "pixoll:whimcraft_custom/buy_sd_plot",
+  "criteria": {
+    "getSales": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "x": {
+                  "min": 13384,
+                  "max": 13803
+                },
+                "y": {
+                  "min": 34,
+                  "max": 115
+                },
+                "z": {
+                  "min": 4396,
+                  "max": 4741
+                }
+              },
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ],
+        "items": [
+          {
+            "item": "minecraft:diamond"
+          }
+        ]
+      }
+    }
+  }
+}
