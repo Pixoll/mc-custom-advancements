@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_sword",
+      "nbt": "{Enchantments:[{id:sharpness,lvl:1}]}"
+    },
+    "title": "What a duel!",
+    "description": "Duel with a player and get victorious!"
+  },
+  "parent": "pixoll:whimcraft_custom/root",
+  "criteria": {
+    "winDuel": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player"
+        }
+      }
+    }
+  }
+}
