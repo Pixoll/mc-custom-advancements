@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_sword",
+      "nbt": "{Enchantments:[{id:sharpness,lvl:1}]}"
+    },
+    "title": "Overkill",
+    "description": "Deal nine hearts of damage in a single hit",
+    "frame": "challenge"
+  },
+  "parent": "pixoll:old_achievements/enchanting_table",
+  "criteria": {
+    "nineDamage": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 18
+          }
+        }
+      }
+    }
+  }
+}

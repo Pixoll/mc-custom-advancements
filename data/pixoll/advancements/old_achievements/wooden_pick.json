@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wooden_pickaxe"
+    },
+    "title": "Time to mine!",
+    "description": "Use planks and sticks to make a pickaxe"
+  },
+  "parent": "pixoll:old_achievements/craft_table",
+  "criteria": {
+    "woodenPick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:wooden_pickaxe"
+          }
+        ]
+      }
+    }
+  }
+}

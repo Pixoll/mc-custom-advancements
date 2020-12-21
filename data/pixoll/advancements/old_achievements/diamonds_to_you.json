@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond"
+    },
+    "title": "Diamonds to you!",
+    "description": "Throw diamonds at another player"
+  },
+  "parent": "pixoll:old_achievements/diamonds",
+  "criteria": {
+    "giveDiamonds": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player"
+        },
+        "item": {
+          "item": "minecraft:diamond"
+        }
+      }
+    }
+  }
+}

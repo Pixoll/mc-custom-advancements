@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:blaze_rod"
+    },
+    "title": "Into Fire",
+    "description": "Relieve a Blaze of its rod",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "pixoll:old_achievements/nether_portal",
+  "criteria": {
+    "getRod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:blaze_rod"
+          }
+        ]
+      }
+    }
+  }
+}

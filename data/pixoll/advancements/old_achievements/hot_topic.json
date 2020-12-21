@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:furnace"
+    },
+    "title": "Hot Topic",
+    "description": "Craft a furnace out of eight cobblestone blocks"
+  },
+  "parent": "pixoll:old_achievements/wooden_pick",
+  "criteria": {
+    "craftFurnace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:furnace"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "title": "Overpowered",
+    "description": "Eat a Notch apple",
+    "frame": "challenge"
+  },
+  "parent": "pixoll:old_achievements/stone_pick",
+  "criteria": {
+    "eatNotchApple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:enchanted_golden_apple"
+        }
+      }
+    }
+  }
+}
