@@ -4,8 +4,7 @@
       "item": "minecraft:diamond_block"
     },
     "title": "Stonks",
-    "description": "Buy a plot at the Shopping District",
-    "frame": "goal"
+    "description": "Buy a plot at the Shopping District"
   },
   "parent": "pixoll:whimcraft_custom/root",
   "criteria": {

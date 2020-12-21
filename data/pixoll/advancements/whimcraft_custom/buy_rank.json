@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:poppy"
+    },
+    "title": "Supporter ❤",
+    "description": "Buy a payed rank and support the server!",
+    "frame": "challenge"
+  },
+  "parent": "pixoll:whimcraft_custom/root",
+  "criteria": {
+    "buyRank": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
