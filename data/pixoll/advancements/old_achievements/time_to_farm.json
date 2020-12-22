@@ -1,69 +1,69 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:wooden_pickaxe"
+      "item": "minecraft:wooden_hoe"
     },
-    "title": "Time to mine!",
-    "description": "Use planks and sticks to make a pickaxe"
+    "title": "Time to Farm!",
+    "description": "Use planks and sticks to make a hoe"
   },
   "parent": "pixoll:old_achievements/benchmarking",
   "criteria": {
-    "woodenPick": {
+    "woodenHoe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:wooden_pickaxe"
+            "item": "minecraft:wooden_hoe"
           }
         ]
       }
     },
-    "stonePick": {
+    "stoneHoe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:stone_pickaxe"
+            "item": "minecraft:stone_hoe"
           }
         ]
       }
     },
-    "ironPick": {
+    "ironHoe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:iron_pickaxe"
+            "item": "minecraft:iron_hoe"
           }
         ]
       }
     },
-    "goldenPick": {
+    "goldenHoe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:golden_pickaxe"
+            "item": "minecraft:golden_hoe"
           }
         ]
       }
     },
-    "diamondPick": {
+    "diamondHoe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:diamond_pickaxe"
+            "item": "minecraft:diamond_hoe"
           }
         ]
       }
     },
-    "netheritePick": {
+    "netheriteHoe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:netherite_pickaxe"
+            "item": "minecraft:netherite_hoe"
           }
         ]
       }
@@ -71,12 +71,12 @@
   },
   "requirements": [
     [
-      "woodenPick",
-      "stonePick",
-      "ironPick",
-      "goldenPick",
-      "diamondPick",
-      "netheritePick"
+      "woodenHoe",
+      "stoneHoe",
+      "ironHoe",
+      "goldenHoe",
+      "diamondHoe",
+      "netheriteHoe"
     ]
   ]
 }

@@ -19,6 +19,55 @@
           }
         ]
       }
+    },
+    "ironPick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:iron_pickaxe"
+          }
+        ]
+      }
+    },
+    "goldenPick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:golden_pickaxe"
+          }
+        ]
+      }
+    },
+    "diamondPick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond_pickaxe"
+          }
+        ]
+      }
+    },
+    "netheritePick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_pickaxe"
+          }
+        ]
+      }
     }
-  }
+  },
+  "requirements": [
+    [
+      "stonePick",
+      "ironPick",
+      "goldenPick",
+      "diamondPick",
+      "netheritePick"
+    ]
+  ]
 }

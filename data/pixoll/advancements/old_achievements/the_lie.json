@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cake"
+    },
+    "title": "The Lie",
+    "description": "Wheat, sugar, milk, and eggs"
+  },
+  "parent": "pixoll:old_achievements/bake_bread",
+  "criteria": {
+    "bakeCake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cake"
+          }
+        ]
+      }
+    }
+  }
+}

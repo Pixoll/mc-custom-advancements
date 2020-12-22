@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wheat"
+    },
+    "title": "Repopulation",
+    "description": "Breed two animals with food",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "pixoll:old_achievements/cow_tipper",
+  "criteria": {
+    "breedAnimal": {
+      "trigger": "minecraft:bred_animals"
+    }
+  }
+}

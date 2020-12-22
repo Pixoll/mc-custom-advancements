@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bread"
+    },
+    "title": "Bake Bread",
+    "description": "Turn wheat into bread"
+  },
+  "parent": "pixoll:old_achievements/time_to_farm",
+  "criteria": {
+    "bakeBread": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bread"
+          }
+        ]
+      }
+    }
+  }
+}

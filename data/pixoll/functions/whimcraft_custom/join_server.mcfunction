@@ -1,1 +1,2 @@
-give @s cake{display:{Name:'[{"text":"Greetings Cake ❤","italic":false,"color":"green"}]',Lore:['[{"text":"Have a great time in our server!","italic":false,"color":"white"}]']}} 
+give @s cake{display:{Name:'[{"text":"Greetings Cake ❤","italic":false,"color":"green"}]',Lore:['[{"text":"Have a great time in our server!","italic":false,"color":"white"}]']}}
+advancement revoke @s only pixoll:old_achievements/the_lie
