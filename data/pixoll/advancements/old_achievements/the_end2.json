@@ -9,7 +9,7 @@
     "show_toast": false,
     "announce_to_chat": false
   },
-  "parent": "pixoll:old_achievements/end_portal",
+  "parent": "pixoll:old_achievements/the_end1",
   "criteria": {
     "killDragon": {
       "trigger": "minecraft:player_killed_entity",

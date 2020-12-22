@@ -7,7 +7,7 @@
     "description": "Eat a Notch apple",
     "frame": "challenge"
   },
-  "parent": "pixoll:old_achievements/stone_pick",
+  "parent": "pixoll:old_achievements/getting_an_upgrade",
   "criteria": {
     "eatNotchApple": {
       "trigger": "minecraft:consume_item",

@@ -9,7 +9,7 @@
     "show_toast": false,
     "announce_to_chat": false
   },
-  "parent": "pixoll:old_achievements/kill_wither",
+  "parent": "pixoll:old_achievements/the_beginning2",
   "criteria": {
     "fullBeacon": {
       "trigger": "minecraft:construct_beacon",

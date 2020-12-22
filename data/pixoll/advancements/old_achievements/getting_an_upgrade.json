@@ -8,7 +8,7 @@
     "show_toast": false,
     "announce_to_chat": false
   },
-  "parent": "pixoll:old_achievements/wooden_pick",
+  "parent": "pixoll:old_achievements/time_to_mine",
   "criteria": {
     "stonePick": {
       "trigger": "minecraft:inventory_changed",

@@ -6,7 +6,7 @@
     "title": "Time to mine!",
     "description": "Use planks and sticks to make a pickaxe"
   },
-  "parent": "pixoll:old_achievements/craft_table",
+  "parent": "pixoll:old_achievements/benchmarking",
   "criteria": {
     "woodenPick": {
       "trigger": "minecraft:inventory_changed",
