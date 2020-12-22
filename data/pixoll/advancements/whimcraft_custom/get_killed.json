@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wooden_sword",
+      "nbt": "{Damage:58}"
+    },
+    "title": "The Noob",
+    "description": "Lose a duel against other player"
+  },
+  "parent": "pixoll:whimcraft_custom/kill_player",
+  "criteria": {
+    "getKilled": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player"
+        }
+      }
+    }
+  }
+}
