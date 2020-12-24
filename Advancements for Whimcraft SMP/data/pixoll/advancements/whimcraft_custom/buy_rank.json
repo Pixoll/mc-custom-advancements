@@ -4,8 +4,9 @@
       "item": "poppy"
     },
     "title": "Supporter ❤",
-    "description": "Buy a payed rank and support the server!",
-    "frame": "challenge"
+    "description": "Buy a rank and support the server!",
+    "frame": "challenge",
+    "hidden": true
   },
   "parent": "pixoll:whimcraft_custom/root",
   "criteria": {

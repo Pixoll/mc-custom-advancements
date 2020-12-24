@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:player_head",
+      "nbt": "{SkullOwner:{Id:[I;909196837,-743158878,-1629862321,-233812539],Properties:{textures:[{Value:'ewogICJ0aW1lc3RhbXAiIDogMTYwODc2MTM4MTkyNiwKICAicHJvZmlsZUlkIiA6ICIzNjMxM2UyNWQzYjQ0YmEyOWVkYTQ2NGZmMjEwNGRjNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJCZV9ubnkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM4NTMxNzM1NDZjNTdiNWEyZDIyZTVmNTAyZjhjNDJmNDYyMDlmNDExMGRlOWU3YWMzMWE2NWJiYjU2Yzg5MyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9'}]}}}"
+    },
+    "title": "Kill the Owner",
+    "description": "What are you even thinking of",
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "pixoll:whimcraft_custom/kill_player",
+  "criteria": {
+    "kill_owner": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player",
+          "nbt": "{UUID:[I;909196837,-743158878,-1629862321,-233812539]}"
+        }
+      }
+    }
+  }
+}

@@ -1,16 +1,6 @@
 {
-	"display": {
-		"icon": {
-			"item": "diamond_block"
-		},
-		"title": "I'm Rich!",
-		"description": "Obtain one stack of diamond blocks",
-		"frame": "challenge",
-		"hidden": true
-	},
-	"parent": "minecraft:story/mine_diamond",
 	"criteria": {
-		"diamond_blocks": {
+		"a": {
 			"trigger": "impossible"
 		}
 	}
