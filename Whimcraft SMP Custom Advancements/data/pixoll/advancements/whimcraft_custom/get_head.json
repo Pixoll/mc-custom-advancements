@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "player_head"
+    },
+    "title": "Get off their head!",
+    "description": "Relieve a player or mob from their head",
+    "frame": "task"
+  },
+  "parent": "pixoll:whimcraft_custom/root",
+  "criteria": {
+    "get_head": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "pixoll:heads"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -2,13 +2,13 @@
   "display": {
     "icon": {
       "item": "player_head",
-      "nbt": "{SkullOwner:{Id:[I;-1067827748,-1531689024,-1996762374,-1760412468],Name:\"Black Sheep\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTMzMzVlODA2NWM3YjVkZmVhNThkM2RmNzQ3NGYzOTZhZjRmYTBhMmJhNTJhM2M5YjdmYmE2ODMxOTI3MWM5MSJ9fX0=\"}]}}}"
+      "nbt": "{SkullOwner:{Id:[I;1047621714,615532832,-1644674494,-748521845],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjMzMzI2NzY1YTE5MGViZjkwZDU0ODZkNzFmMjBlMjU5N2U0YmVlMmEzOTFmZWNiYmQ4MGRlYmZlMWY4MmQ3OCJ9fX0=\"}]}}}"
     },
     "title": "It's all sheeeeep",
     "description": "Get every sheep head",
-    "frame": "challenge"
+    "frame": "goal"
   },
-  "parent": "pixoll:whimcraft_custom/root",
+  "parent": "pixoll:whimcraft_custom/get_head",
   "criteria": {
     "black_sheep": {
       "trigger": "inventory_changed",
