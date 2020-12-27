@@ -4,8 +4,7 @@
       "item": "player_head"
     },
     "title": "Get off their head!",
-    "description": "Relieve a player or mob from their head",
-    "frame": "task"
+    "description": "Relieve a player or mob from their head"
   },
   "parent": "pixoll:whimcraft_custom/root",
   "criteria": {
