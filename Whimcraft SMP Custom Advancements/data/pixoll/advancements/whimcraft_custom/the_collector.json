@@ -6,7 +6,8 @@
     },
     "title": "The Collector",
     "description": "You hold the Power of Mobs and Mini-Blocks",
-    "frame": "challenge"
+    "frame": "challenge",
+    "hidden": true
   },
   "parent": "pixoll:whimcraft_custom/root",
   "criteria": {
