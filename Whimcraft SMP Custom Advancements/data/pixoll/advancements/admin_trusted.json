@@ -8,7 +8,7 @@
     "description": "Make an Admin have trust in you!",
     "frame": "goal"
   },
-  "parent": "pixoll:whimcraft_custom/root",
+  "parent": "pixoll:/root",
   "criteria": {
     "admin_trusted": {
       "trigger": "impossible"

@@ -6,7 +6,7 @@
     "title": "Stonks",
     "description": "Buy a plot at the Shopping District"
   },
-  "parent": "pixoll:whimcraft_custom/root",
+  "parent": "pixoll:root",
   "criteria": {
     "buy_plot": {
       "trigger": "placed_block",

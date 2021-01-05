@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "item": "elytra",
+      "nbt": "{Enchantments:[{id:unbreaking,lvl:1}]}"
+    },
+    "title": "It's Superman!",
+    "description": "Fly a total distance of 1 million blocks",
+    "frame": "challenge"
+  },
+  "parent": "pixoll:root",
+  "criteria": {
+    "1km_elytra": {
+      "trigger": "impossible"
+    }
+  }
+}

@@ -8,7 +8,7 @@
     "description": "Get every passive and neutral mob head",
     "frame": "challenge"
   },
-  "parent": "pixoll:whimcraft_custom/all_sheep_heads",
+  "parent": "pixoll:all_sheep_heads",
   "criteria": {
     "black_sheep": {
       "trigger": "inventory_changed",

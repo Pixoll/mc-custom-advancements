@@ -9,7 +9,7 @@
     "frame": "challenge",
     "hidden": true
   },
-  "parent": "pixoll:whimcraft_custom/root",
+  "parent": "pixoll:root",
   "criteria": {
     "ender_chest": {
       "trigger": "inventory_changed",

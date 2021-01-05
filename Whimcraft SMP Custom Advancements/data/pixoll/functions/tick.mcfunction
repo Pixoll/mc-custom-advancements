@@ -1,0 +1,1 @@
+execute as @a at @s run function pixoll:million_blocks_flight

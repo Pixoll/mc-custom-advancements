@@ -6,7 +6,7 @@
     "title": "Get off their head!",
     "description": "Relieve a player or mob from their head"
   },
-  "parent": "pixoll:whimcraft_custom/root",
+  "parent": "pixoll:root",
   "criteria": {
     "get_head": {
       "trigger": "inventory_changed",

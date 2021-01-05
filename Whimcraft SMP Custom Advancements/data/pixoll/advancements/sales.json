@@ -7,7 +7,7 @@
     "description": "Make profits in your shop!",
     "frame": "goal"
   },
-  "parent": "pixoll:whimcraft_custom/buy_sd_plot",
+  "parent": "pixoll:buy_sd_plot",
   "criteria": {
     "get_sales": {
       "trigger": "inventory_changed",

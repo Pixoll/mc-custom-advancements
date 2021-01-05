@@ -7,7 +7,7 @@
     "title": "Mini-Block Marketplace",
     "description": "Buy any type of mini-block from a wandering trader"
   },
-  "parent": "pixoll:whimcraft_custom/root",
+  "parent": "pixoll:root",
   "criteria": {
     "ender_chest": {
       "trigger": "inventory_changed",

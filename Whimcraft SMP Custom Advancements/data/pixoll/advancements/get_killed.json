@@ -7,7 +7,7 @@
     "title": "The Noob",
     "description": "Lose a duel against other player"
   },
-  "parent": "pixoll:whimcraft_custom/kill_player",
+  "parent": "pixoll:kill_player",
   "criteria": {
     "get_killed": {
       "trigger": "entity_killed_player",

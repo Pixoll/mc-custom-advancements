@@ -8,7 +8,7 @@
     "description": "Get every sheep head",
     "frame": "goal"
   },
-  "parent": "pixoll:whimcraft_custom/get_head",
+  "parent": "pixoll:get_head",
   "criteria": {
     "black_sheep": {
       "trigger": "inventory_changed",

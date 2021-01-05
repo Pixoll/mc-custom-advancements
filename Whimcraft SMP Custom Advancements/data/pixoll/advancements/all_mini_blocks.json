@@ -8,7 +8,7 @@
     "description": "Buy every type of mini-block",
     "frame": "challenge"
   },
-  "parent": "pixoll:whimcraft_custom/get_mini_block",
+  "parent": "pixoll:get_mini_block",
   "criteria": {
     "ender_chest": {
       "trigger": "inventory_changed",

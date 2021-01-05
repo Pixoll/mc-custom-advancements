@@ -1,0 +1,1 @@
+execute if score @s elytra_flight matches 100000000.. run advancement grant @s only pixoll:million_blocks_flight

@@ -7,7 +7,7 @@
     "description": "Hold a whole stack of diamond blocks",
     "frame": "challenge"
   },
-  "parent": "pixoll:whimcraft_custom/sales",
+  "parent": "pixoll:sales",
   "criteria": {
     "stack_diamond_blocks": {
       "trigger": "inventory_changed",

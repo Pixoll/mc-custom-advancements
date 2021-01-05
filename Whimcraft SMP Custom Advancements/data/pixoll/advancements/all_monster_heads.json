@@ -7,7 +7,7 @@
     "description": "Get every hostile monster head",
     "frame": "challenge"
   },
-  "parent": "pixoll:whimcraft_custom/get_head",
+  "parent": "pixoll:get_head",
   "criteria": {
     "blaze": {
       "trigger": "inventory_changed",

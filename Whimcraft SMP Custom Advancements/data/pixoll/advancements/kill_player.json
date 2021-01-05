@@ -7,7 +7,7 @@
     "title": "What a duel!",
     "description": "Duel with a player and get victorious!"
   },
-  "parent": "pixoll:whimcraft_custom/root",
+  "parent": "pixoll:root",
   "criteria": {
     "win_duel": {
       "trigger": "player_killed_entity",
