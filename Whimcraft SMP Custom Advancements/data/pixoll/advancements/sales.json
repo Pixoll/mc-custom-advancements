@@ -18,16 +18,16 @@
             "predicate": {
               "position": {
                 "x": {
-                  "min": 13384,
-                  "max": 13803
+                  "min": -4465,
+                  "max": -3619
                 },
                 "y": {
-                  "min": 34,
-                  "max": 115
+                  "min": 0,
+                  "max": 256
                 },
                 "z": {
-                  "min": 4396,
-                  "max": 4741
+                  "min": 3885,
+                  "max": 4445
                 }
               },
               "dimension": "overworld"

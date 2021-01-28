@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "mycelium"
+    },
+    "title": "Let's go shopping!",
+    "description": "Visit the Shopping District"
+  },
+  "parent": "pixoll:root",
+  "criteria": {
+    "visit_sd": {
+      "trigger": "location",
+      "conditions": {
+        "location": {
+          "position": {
+            "x": {
+              "min": -4465,
+              "max": -3619
+            },
+            "y": {
+              "min": 0,
+              "max": 256
+            },
+            "z": {
+              "min": 3885,
+              "max": 4445
+            }
+          },
+          "dimension": "overworld"
+        }
+      }
+    }
+  }
+}
